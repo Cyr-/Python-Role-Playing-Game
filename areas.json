@@ -1,0 +1,41 @@
+{
+  "area_01": {
+    "py/object": "Area.Area",
+    "dialogue": {
+      "py/object": "Dialogue.Dialogue",
+      "description": "Welcome to the world! You see a mer in front of you.",
+      "choices": ["Speak with mer", "Flee"]
+    },
+    "doors": ["door_01_02"],
+    "inventory": {
+      "py/object": "Inventory.Inventory",
+      "items": [
+        ["item_gold_coin", 5],
+        ["item_iron_key", 1],
+        ["weapon_dagger", 1],
+        ["armor_leather", 1]
+      ]
+    },
+    "creatures": []
+  },
+
+  "area_02": {
+    "py/object": "Area.Area",
+    "dialogue": {
+      "py/object": "Dialogue.Dialogue",
+      "description": "You are in room 2",
+      "choices": []
+    },
+    "doors": ["door_01_02"],
+    "inventory": {
+      "py/object": "Inventory.Inventory",
+      "items": [
+        ["item_gold_coin", 100]
+      ]
+    },
+    "creatures":
+    [
+      "creature_rat"
+    ]
+  }
+}

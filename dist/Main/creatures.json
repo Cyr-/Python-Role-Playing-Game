@@ -1,0 +1,16 @@
+{
+  "creature_rat": {
+    "identifier": "creature_rat",
+    "py/object": "Creature.Creature",
+    "name": "Rat",
+    "hp": 3,
+    "strength": 5,
+    "dexterity": 3,
+    "spirit": 3,
+    "constitution": 3,
+    "speed": 4,
+    "experience": 1,
+    "equipped_armor": "",
+    "equipped_weapon": "weapon_rat_claw"
+  }
+}

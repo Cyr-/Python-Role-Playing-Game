@@ -1,0 +1,47 @@
+{
+  "area_01": {
+    "py/object": "Area.Area",
+    "dialogue": {
+      "py/object": "Dialogue.Dialogue",
+      "description": "You are in room 1",
+      "choices": []
+    },
+    "doors": ["door_01_02"],
+    "inventory": {
+      "py/object": "Inventory.Inventory",
+      "items": [
+        ["item_gold_coin", 5],
+        ["item_iron_key", 1]
+      ],
+      "weapons": [
+        ["weapon_dagger", 1]
+      ],
+      "armors": [
+        ["armor_leather", 1]
+      ]
+    },
+    "creatures": []
+  },
+
+  "area_02": {
+    "py/object": "Area.Area",
+    "dialogue": {
+      "py/object": "Dialogue.Dialogue",
+      "description": "You are in room 2",
+      "choices": []
+    },
+    "doors": ["door_01_02"],
+    "inventory": {
+      "py/object": "Inventory.Inventory",
+      "items": [
+        ["item_gold_coin", 100]
+      ],
+      "weapons": [],
+      "armors": []
+    },
+    "creatures":
+    [
+      "creature_rat"
+    ]
+  }
+}
